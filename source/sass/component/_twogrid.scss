@@ -1,0 +1,24 @@
+.c-twogrid {
+    &__container, &__row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@include responsiveStyles(
+    (
+        ".c-twogrid--auto": (flex-grow: 1)
+    )
+);
+
+@for $i from 1 through 12 {
+    $nth: 100/12;
+    $width: $nth * $i;
+
+    @include responsiveStyles(
+        (
+            ".c-twogrid--#{$i}": (width: percentage($i/12))
+        )
+    )
+};

@@ -1,0 +1,22 @@
+{
+    "container": {
+        "heading": "Container",
+        "subHeading": "Creating a container",
+        "text": "The grid component allows you to build CSS grids with components. It has 12 columns and an infinite amount of rows."
+    },
+    "row": {
+        "heading": "Rows",
+        "subHeading": "Using rows",
+        "text": "The grid component allows you to build CSS grids with components. It has 12 columns and an infinite amount of rows."
+    },
+    "item": {
+        "heading": "Item",
+        "subHeading": "The core",
+        "text": "The grid component allows you to build CSS grids with components. It has 12 columns and an infinite amount of rows."
+    },
+    "twogrid": {
+        "heading": "Building it all together",
+        "subHeading": "What we can achieve",
+        "text": "The grid component allows you to build CSS grids with components. It has 12 columns and an infinite amount of rows."
+    }
+}
